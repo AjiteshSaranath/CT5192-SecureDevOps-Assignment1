@@ -20,7 +20,7 @@ services:
       context: ./frontend-react
       dockerfile: Dockerfile
       args:
-        - REACT_APP_API_URL=http://34.88.232.2:4000
+        - REACT_APP_API_URL=http://136.115.100.7:4000
     ports:
       - "80:80"
     depends_on:
